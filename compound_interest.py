@@ -1,9 +1,3 @@
-# This script calculates yearly compound interest given principal, annual rate of interest and time period in years.
-# Do not use this in production. Sample purpose only.
-
-# Author: Upkar Lidder (IBM)
-
-
 def compound_interest(p, t, r):
     return p * (pow((1 + r / 100), t))
 
